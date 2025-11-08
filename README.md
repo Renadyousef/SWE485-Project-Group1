@@ -1,4 +1,4 @@
-# Phishing Email Detection – SWE485
+# Spam Email Detection – SWE485
 
 
 ##  Why We Chose This Topic
@@ -39,12 +39,13 @@ In this phase, we:
 
 ---
 ###  What We Did in Phase 2
-in this phase we did 
--split the data into train,test
--trained 3 models
--evaluted them 
--chose the best fit
--analyzed whats wrong and applied erorr analysis (underfit,overfit,good fit) and removed highly coroleted column (cheating column)
+in this phase we did :
+- split the data into train,test
+- trained 3 models
+- evaluted them 
+- chose the best fit
+- captured the high weight features in text
+- analyzed whats wrong and applied erorr analysis (underfit,overfit,good fit) and removed highly coroleted column (cheating column)
 ---
 
 ### files in This Repository 
