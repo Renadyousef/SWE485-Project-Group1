@@ -9,22 +9,22 @@ Being able to automatically detect them helps protect users and organizations fr
 
 ###  Team Members
 
-| Name | Student ID | Role |
-|------|-------------|------|
-| fajer alkatheri        | [443204563] | Data Cleaning & Handling Missing Values|
-| renad alotibi          | [44320080]  | Feature Extraction and Engineering |
-| rawan khaled           | [443204623] | Text Preprocessing |
-| rahaf samkari          | [443202844] | Text Preprocessing |
-| Salha Abdullah Shahbal | 443204567   | Text Representation (Vectorization)|
+| Name | Student ID |
+|------|-------------|
+| fajer alkatheri        | [443204563] | 
+| renad alotibi          | [443200801]  | 
+| rawan khaled           | [443204623] | 
+| rahaf samkari          | [443202844] | 
+| Salha Abdullah Shahbal | 443204567   | 
 
 
 ---
 ### Dataset
 - Source: [Phishing Email Dataset on Kaggle](https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset)  
-- Contains around 39,000 emails labeled as *phishing (1)* or *legitimate (0)*.  
+- Contains around 39,000 emails labeled as *Spam (1)* or *legitimate (0)*.  
 - Key columns include:  
   - subject, body: email text  
-  - urls, receiver_spam_ratio, capital_ratio: extracted numeric features  
+  - urls, receiver_spam_ratio :[extracted], capital_ratio: extracted numeric features and more ..
   - label: target variable
 
 ---
@@ -38,11 +38,21 @@ In this phase, we:
 - Saved all processed data for the next phase (model training).
 
 ---
+###  What We Did in Phase 2
+in this phase we did 
+-split the data into train,test
+-trained 3 models
+-evaluted them 
+-chose the best fit
+-analyzed whats wrong and applied erorr analysis (underfit,overfit,good fit) and removed highly coroleted column (cheating column)
+---
 
-### files in This Repository
+### files in This Repository 
 
-Phase1_Data_Exploration.ipynb   ← Main notebook for data exploration, feature extraction, and TF-IDF transformation  
+Phase1_Data_Exploration.ipynb   ← notebook for data exploration, feature extraction, and TF-IDF transformation  
 CEAS_08.csv                     ← Original phishing email dataset  
-cleaned_CEAS_08.csv             ← Cleaned version after preprocessing and removing duplicates  
-artifacts/                      ← Folder containing saved TF-IDF vectorizer, scaler, and feature data files  
+  
+artifacts/                      ← Cleaned data Folder 
+containing saved TF-IDF vectorizer, scaler, and feature data files  
+phase 2   ← notebook for models training and evaluation 
 README.md                       ← Project documentation and team details
