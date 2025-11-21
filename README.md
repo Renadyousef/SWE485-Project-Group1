@@ -1,4 +1,4 @@
-# Spam Email Detection – SWE485
+# Spam Advice System and Detection  – SWE485
 
 ## Why We Chose This Topic
 We chose this project because phishing and spam emails are one of the most common cybersecurity threats today.  
