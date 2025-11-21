@@ -67,9 +67,10 @@ This phase was **analytical only** — no new supervised models were trained.
 
 ## Files in This Repository
 
-- `Phase1_Data_Exploration.ipynb` ← Notebook for data exploration, feature extraction, and TF-IDF transformation  
-- `Phase3_Clustering_Analysis.ipynb` ← Notebook for K-Means clustering, PCA visualization, and cluster-label analysis  
+- `Phase1_.ipynb` ← Notebook for data exploration, feature extraction, and TF-IDF transformation
+- `Phase2_.ipynb` ← Notebook for supervised models training and evaluation  
+- `Phase3_.ipynb` ← Notebook for K-Means clustering, PCA visualization, and cluster-label analysis  
 - `CEAS_08.csv` ← Original phishing email dataset  
 - `artifacts/` ← Folder containing saved TF-IDF vectorizer, scaler, and feature data files  
-- `Phase2_Model_Training.ipynb` ← Notebook for models training and evaluation  
+
 - `README.md` ← Project documentation and team details
