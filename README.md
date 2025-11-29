@@ -65,11 +65,25 @@ This phase was **analytical only** — no new supervised models were trained.
 
 ---
 
+## Phase 4 – AI Integration & Prompt Engineering
+
+In this phase, we connected our system with OpenAI API to generate intelligent spam advice using prompt engineering.
+
+## What We Did:
+	•⁠  ⁠Connected to OpenAI API using a secure .env key.
+	•	Designed two different prompts, each written independently to compare output quality.
+	•	Used the same sample email to test both prompts fairly.
+	•	Compared clarity, structure, and usefulness of the results.
+	•	Integrated the prompts into a small advice-generation workflow inside the notebook.
+
+----
+
 ## Files in This Repository
 
-- `Phase1_.ipynb` ← Notebook for data exploration, feature extraction, and TF-IDF transformation
-- `Phase2_.ipynb` ← Notebook for supervised models training and evaluation  
-- `Phase3_.ipynb` ← Notebook for K-Means clustering, PCA visualization, and cluster-label analysis  
+- `Phase1_Data_Exploration.ipynb` ← Notebook for data exploration, feature extraction, and TF-IDF transformation
+- `Phase2_Supervised_Learning.ipynb` ← Notebook for supervised models training and evaluation  
+- `Phase3_Unsupervised_Learning.ipynb` ← Notebook for K-Means clustering, PCA visualization, and cluster-label analysis  
+- `Phase4_Generative_AI.ipynb` ← Phase4_Generative_AI.ipynb – API integration, prompts, output comparison
 - `CEAS_08.csv` ← Original phishing email dataset  
 - `artifacts/` ← Folder containing saved TF-IDF vectorizer, scaler, and feature data files  
 
